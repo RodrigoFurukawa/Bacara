@@ -112,7 +112,7 @@ if soma_mesa <= 5 and soma_jogadorpre <=7 : #saber se da mais uma ou não:
 #transformar a mesa se >10 em unidade
 i=0
 while soma_mesa >= 10:
-    soma_mesa -= 10
+    soma_mesa -=10
 
 print("A mesa tem a soma de {0} pontos".format(soma_mesa))
 
